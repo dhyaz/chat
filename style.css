@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Andes';
+    src: url('fonts/Andes.eot');
+    src: url('fonts/Andes.eot') format('embedded-opentype'),
+         url('fonts/Andes.woff2') format('woff2'),
+         url('fonts/Andes.woff') format('woff'),
+         url('fonts/Andes.ttf') format('truetype'),
+         url('fonts/Andes.svg#Andes') format('svg');
+}
+
+
+.main {
+    width: 100%;
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #D0D3D4;
+  }
+
+  .main>span{
+    color: #d8e5ee;
+    font-size: 68px;
+    font-family: 'Andes';
+    text-shadow: 2px 2px 0px #090f16;
+  }
+  
+  .box {
+    gap: 40px;
+    width: 88%;
+    padding: 22px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 22px;
+    border: 2.8px solid #d8e5ee;
+    background-image: url("batman.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+    box-shadow: 0px 0px 0px #090f16, 10px 10px 12px #090f16,
+      10px 10px 16px #090f16;
+  }
+  
+  .twitch > iframe,
+  .youtube > iframe {
+    border-radius: 22px;
+    border: 2.8px solid #d8e5ee;
+    box-shadow: 0px 0px 0px #090f16, 10px 10px 12px #090f16,
+      10px 10px 16px #090f16;
+  }
+  
+  .twitch,
+  .youtube {
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  span{
+    padding: 10px;
+  }
+
+  span>i{
+    font-size: 48px;
+    color: #d8e5ee;
+    text-shadow: 0px 0px 0px #090f16, 2px 2px 12px #090f16,
+      2px 2px 16px #090f16;
+  }
+  
